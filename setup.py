@@ -5,8 +5,7 @@ setup(name='recsystem',
       description='Package for recommender system',
       author='terada',
       author_email='mio.terada@sci.hokudai.ac.jp',
-      install_requires=['numpy','pandas','scipy.sparse'],
-#      dependency_links=[''],
+      install_requires=['numpy','pandas','scipy'],
       url='https://github.com/mioterada/recsystem',
       packages=find_packages()
 )
